@@ -13,3 +13,10 @@
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color:    #e3e3e3;
 }
+/*文字超出省略*/
+.texthidden {
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  word-break: normal !important;
+}
