@@ -25,3 +25,13 @@ input[type=number] { -moz-appearance:textfield; }
 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {      
     -webkit-appearance: none; 
 }
+
+/*图片灰色滤镜*/
+.gray { 
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
